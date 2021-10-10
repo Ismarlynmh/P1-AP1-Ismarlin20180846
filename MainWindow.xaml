@@ -1,0 +1,27 @@
+﻿<Window x:Class="P1_AP1_Ismarlin20180846.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P1_AP1_Ismarlin20180846"
+        mc:Ignorable="d"
+    Title="Registro de Aportes" Height="350" Width="290" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <!--Persona-->
+            <Label Content="Persona" FontSize="15"/>
+            <TextBox Name="PersonaTextBox" Height="20" Text="{Binding Persona}" Width="200" Margin="5,0" HorizontalAlignment="Left"/>
+            <!--Concepto-->
+            <Label Content="Concepto" FontSize="15"/>
+            <TextBox Name="ConceptoTextBox" Height="20" Text="{Binding Concepto}" Width="200" HorizontalAlignment="Left" Margin="5,0"/>
+            <!--Fecha-->
+            <Label Content="Fecha" FontSize="15"/>
+            <TextBox Name="FechaTextBox" Height="20" Text="{Binding Fecha}" Width="200" HorizontalAlignment="Left" Margin="5,0"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="21,17,5,0" Width="149.7">
+                <Button Name="CrearButton" Content="Crear" Click="CrearButton_Click"/>
+                <Button Name="ModificarButton" Content="Modificar" Margin="5,0" Click="ModificarButton_Click"/>
+                <Button Name="EliminarButton" Content="Eliminar"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

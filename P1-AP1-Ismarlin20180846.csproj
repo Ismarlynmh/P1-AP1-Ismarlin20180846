@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>P1_AP1_Ismarlin20180846</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>x b</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net5.0-windows\App.g.cs" />
+    <Compile Include="obj\Debug\net5.0-windows\App.g.i.cs" />
+    <Compile Include="obj\Debug\net5.0-windows\MainWindow.g.cs" />
+    <Compile Include="obj\Debug\net5.0-windows\MainWindow.g.i.cs" />
+    <Compile Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846.designer.deps.json" />
+    <Content Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846.designer.runtimeconfig.json" />
+    <Content Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846.designer.deps.json" />
+    <Content Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846.designer.runtimeconfig.json" />
+    <Content Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro.designer.deps.json" />
+    <Content Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro.designer.runtimeconfig.json" />
+    <Content Include="obj\P1-AP1-Ismarlin20180846.csproj.nuget.dgspec.json" />
+    <Content Include="obj\P1-AP1-Ismarlyn-20180846.csproj.nuget.dgspec.json" />
+    <Content Include="obj\P1-AP1-Ismarlyn-20180846otro.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846.assets.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846_MarkupCompile.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846_MarkupCompile.i.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846_MarkupCompile.i.lref" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlin20180846_MarkupCompile.lref" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846.assets.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro.assets.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro_MarkupCompile.i.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846otro_MarkupCompile.i.lref" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846_MarkupCompile.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846_MarkupCompile.i.cache" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846_MarkupCompile.i.lref" />
+    <None Include="obj\Debug\net5.0-windows\P1-AP1-Ismarlyn-20180846_MarkupCompile.lref" />
+    <None Include="obj\P1-AP1-Ismarlin20180846.csproj.nuget.g.props" />
+    <None Include="obj\P1-AP1-Ismarlin20180846.csproj.nuget.g.targets" />
+    <None Include="obj\P1-AP1-Ismarlyn-20180846.csproj.nuget.g.props" />
+    <None Include="obj\P1-AP1-Ismarlyn-20180846.csproj.nuget.g.targets" />
+    <None Include="obj\P1-AP1-Ismarlyn-20180846otro.csproj.nuget.g.props" />
+    <None Include="obj\P1-AP1-Ismarlyn-20180846otro.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.sqlite" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net5.0-windows\ref\" />
+    <Folder Include="DAL\" />
+    <Folder Include="DATA\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="obj\Debug\net5.0-windows\ref\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
